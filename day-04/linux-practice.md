@@ -13,4 +13,5 @@ a    → show processes of all users
 u    → show detailed/user-oriented information
 x    → include processes without a terminal (TTY)
 
-<img width="1718" height="846" alt="image" src="https://github.com/user-attachments/assets/cfc03e15-e7d0-4847-a80e-31fdcc32e2f5" />
+<img width="1032" height="587" alt="image" src="https://github.com/user-attachments/assets/71057c05-f5c8-465b-9495-d545519b259f" />
+
