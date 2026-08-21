@@ -37,4 +37,11 @@ Command 2 : top -> top is a very important Linux command used to monitor running
 
 <img width="1052" height="685" alt="image" src="https://github.com/user-attachments/assets/0839ff39-f4cc-4448-9906-06d0e59d509e" />
 
+Command 3 : **pgrep** -> pgrep is used to find the PID (Process ID) of a running process by its name.
+
+```bash
+ubuntu@ip-172-31-17-118:~/90DaysOfDevOps-PersonalWork/day-04$ pgrep bash
+1412
+```
+
 
