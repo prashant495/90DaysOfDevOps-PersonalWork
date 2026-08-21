@@ -37,11 +37,31 @@ Command 2 : top -> top is a very important Linux command used to monitor running
 
 <img width="1052" height="685" alt="image" src="https://github.com/user-attachments/assets/0839ff39-f4cc-4448-9906-06d0e59d509e" />
 
-Command 3 : **pgrep** -> pgrep is used to find the PID (Process ID) of a running process by its name.
+**Command 3 :** **pgrep** -> pgrep is used to find the PID (Process ID) of a running process by its name.
 
 ```bash
 ubuntu@ip-172-31-17-118:~/90DaysOfDevOps-PersonalWork/day-04$ pgrep bash
 1412
 ```
+
+**Command 4 :** **systemctl status nginx** -> This command is used to check the current status of the Nginx service on a Linux system.
+
+**Command 5 : systemctl list-units** -> systemctl list-units is used to list the currently loaded systemd units on a Linux system.
+
+UNIT                      LOAD   ACTIVE   SUB       DESCRIPTION
+nginx.service             loaded active   running   A high performance web server
+ssh.service               loaded active   running   OpenBSD Secure Shell server
+cron.service              loaded active   running   Regular background program processing daemon
+systemd-logind.service    loaded active   running   User Login Management
+
+| Column          | Meaning                                                |
+| --------------- | ------------------------------------------------------ |
+| **UNIT**        | Name of the unit                                       |
+| **LOAD**        | Whether the unit configuration was loaded successfully |
+| **ACTIVE**      | General active/inactive state                          |
+| **SUB**         | Detailed state                                         |
+| **DESCRIPTION** | Description of the unit                                |
+
+**Command 6 : journalctl -u <service>** -> journalctl is used to view logs collected by systemd.
 
 
